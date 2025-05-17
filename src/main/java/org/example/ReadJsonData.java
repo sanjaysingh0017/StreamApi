@@ -1,6 +1,7 @@
 package org.example;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.example.Section1.LoopDemo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +14,6 @@ import java.util.Objects;
 public class ReadJsonData {
 
     public static List<Person> getData() {
-        ReadJsonData app = new ReadJsonData();
         String fileName = "MOCK_DATA.json";
         List<Person> personList = new ArrayList<>();
         StringBuilder json = new StringBuilder();
