@@ -3,10 +3,9 @@ package org.example.Section2;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-public class MapFilterDemo {
+public class HashMapFilterDemo {
 
     public static void main(String[] args) {
         // filter map for map values that are less than 3

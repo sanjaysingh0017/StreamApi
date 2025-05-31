@@ -7,6 +7,7 @@ public class Person {
     String last_name;
     String email;
     String gender;
+    int salary;
 
     public int getId() {
         return id;
@@ -48,6 +49,14 @@ public class Person {
         this.gender = gender;
     }
 
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
@@ -56,6 +65,7 @@ public class Person {
                 ", last_name='" + last_name + '\'' +
                 ", email='" + email + '\'' +
                 ", gender='" + gender + '\'' +
+                ", salary='" + salary + '\'' +
                 '}';
     }
 }

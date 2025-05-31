@@ -3,7 +3,7 @@ package org.example.Section1;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MapLoopDemo {
+public class HashMapLoopDemo {
     public static void main(String[] args) {
         Map<String, Integer> map = new HashMap<>();
         map.put("a", 1);
