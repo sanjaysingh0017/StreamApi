@@ -1,4 +1,4 @@
-package org.example.Section2;
+package org.example.Section3;
 
 import java.util.List;
 import java.util.stream.Collectors;

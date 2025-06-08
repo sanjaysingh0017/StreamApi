@@ -1,7 +1,7 @@
 package org.example;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.Section1.LoopDemo;
+import org.example.Section2.LoopDemo;
 
 import java.io.BufferedReader;
 import java.io.IOException;

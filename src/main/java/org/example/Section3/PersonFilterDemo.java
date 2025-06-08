@@ -1,4 +1,4 @@
-package org.example.Section2;
+package org.example.Section3;
 
 import org.example.Person;
 import org.example.ReadJsonData;
