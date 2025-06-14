@@ -1,10 +1,10 @@
-package org.example;
+package org.example.Section8;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ConcatenateStringsDemo {
+public class Problem1ConcatenateStrings {
 
     public static void main(String[] args) {
         List<String> words = Arrays.asList("apple", "banana", "cherry", "date");
